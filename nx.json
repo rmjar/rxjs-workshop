@@ -1,0 +1,31 @@
+{
+  "npmScope": "project",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "rxjs": {
+      "tags": []
+    },
+    "rxjs-e2e": {
+      "tags": []
+    },
+    "web": {
+      "tags": [
+        "ui"
+      ]
+    },
+    "web-e2e": {
+      "tags": []
+    },
+    "api": {
+      "tags": [
+        "api"
+      ]
+    }
+  }
+}
